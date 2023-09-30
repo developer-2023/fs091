@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography - text</title>
+    <Style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        .capitalize { text-transform: capitalize; }
+        .uppercase { text-transform: uppercase; }
+        .lowercase { text-transform: lowercase; }
+        .none { text-transform: none; }
+        span { color: red; }
+        .underline { text-decoration: underline dotted lightskyblue 3px; }
+        .overline { text-decoration: overline; }
+        .line-through { text-decoration: line-through; }
+        .left { text-align: left; }
+        .right { text-align: right; }
+        .center { text-align: center; }
+        .justify { text-align: justify; }
+        div { border: 2px solid red; margin: 5px; padding: 5px; }    
+    </Style>
+
+</head>
+<body>
+    <p class="capitalize"><span>[capitalize]</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <p class="uppercase"><span>[uppercase]</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <p class="lowercase"><span>[lowercase]</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <p class="none"><span>[none]</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <br>
+    <p class="underline">text-decoration: underline</p>
+    <p class="overline">text-decoration: overline</p>
+    <p class="line-through">text-decoration: line-through</p>
+    <br>
+    <div class="left">Lorem ipsum dolor sit amet.</div>
+    <div class="center">Lorem ipsum dolor sit amet.</div>
+    <div class="right">Lorem ipsum dolor sit amet.</div>
+    <div class="justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint non veniam nisi vel! Perspiciatis, maxime.</div>
+</body>
+</html>
